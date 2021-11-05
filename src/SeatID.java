@@ -49,10 +49,10 @@ public class SeatID {
             br.close();
         }
 
-        // first star:
+        // answer for the first part:
         System.out.println(Collections.max(numbers));
 
-        // second star:
+        // second part:
         // I'm looking for a missing number, number that fits in between two consecutive numbers i and i+2 in a sorted list of IDs
         Collections.sort(numbers);
         for (int i = 0; i < numbers.size()-1; i++) {
